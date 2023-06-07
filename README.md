@@ -15,11 +15,8 @@ Stealthburner toolhead
  - GBA-SZC 3010 Cooling Fan 24V DC
   
 2x 24v LED Case light Strips 6-6500k
-
 Chamber Temperature Probe HT-NTC 100k
-
 Spherical bearing mod M5
-
 Manta MP8 Board / CB1 / TMC220
 
 BTT HDMI5
