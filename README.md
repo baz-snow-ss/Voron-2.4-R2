@@ -2,11 +2,11 @@
 3D Printer
 ![IMG20230425152703](https://github.com/baz-snow-ss/Voron-2.4-R2/assets/99566898/d70d49a9-5046-4459-ac16-60790c98a5e6)
 
-Sunlu Filament Dryer Box S2
-350mm FormBot kit
-Logitech C270 HD Cam whit a Apexel Universal Phone Cameras Lens Kit 0.45X Wide Angle Lens 140°+ 12.5X Macro Lens Clip-on
+- Sunlu Filament Dryer Box S2
+- 350mm FormBot kit
+- Logitech C270 HD Cam whit a Apexel Universal Phone Cameras Lens Kit 0.45X Wide Angle Lens 140°+ 12.5X Macro Lens Clip-on
 
-Stealthburner toolhead
+ - Stealthburner toolhead
  - LGX Lite extruder
  - BTT SB2209 CanBus board
  - Chaoticlabs Tap
