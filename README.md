@@ -6,12 +6,12 @@ Sunlu Filament Dryer Box S2
 350mm FormBot kit
 Logitech C270 HD Cam whit a Apexel Universal Phone Cameras Lens Kit 0.45X Wide Angle Lens 140°+ 12.5X Macro Lens Clip-on
 Stealthburner toolhead
-  LGX Lite extruder
-  BTT SB2209 CanBus board
-  Chaoticlabs Tap
-  Phaetus Rapido
-  Noctua NF-A4x10 PWM, Premium Quiet Fan, 4-Pin (40x10mm, Brown)
-  GBA-SZC 3010 Cooling Fan 24V DC
+ - LGX Lite extruder
+ - BTT SB2209 CanBus board
+ - Chaoticlabs Tap
+ - Phaetus Rapido
+ - Noctua NF-A4x10 PWM, Premium Quiet Fan, 4-Pin (40x10mm, Brown)
+ - GBA-SZC 3010 Cooling Fan 24V DC
   
 2x 24v LED Case light Strips 6-6500k 
 Chamber Temperature Probe HT-NTC 100k
