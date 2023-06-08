@@ -43,6 +43,7 @@ python3 ~/CanBoot/scripts/flash_can.py -i can0 -q
 ```
 You should see a "Detected UUID" with "Application: CanBoot"
 ![image png 4f105b5a3ffc5e8cc67c9b1901152288](https://github.com/baz-snow-ss/Voron-2.4-R2/assets/99566898/5728c898-574f-4826-b053-7114e665c584)
+
 If you see the above, take note of the UUID and move on to flashing Klipper to the toolhead board.
 
 ### Installing Klipper
