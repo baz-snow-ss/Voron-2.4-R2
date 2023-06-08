@@ -50,3 +50,15 @@ make flash FLASH_DEVICE=0483:df11
 ```
 where the FLASH_DEVICE ID is the address of the USB device
 ### Klipper is now installed
+
+This should have now installed klipper firmware to your mainboard. You can verify by running lsusb and you should see a "Geschwister Schneider CAN adapter" or similar device.
+![image png 7aa5df0bf8b259d6d7d17d17c0bb6ccf](https://github.com/baz-snow-ss/Voron-2.4-R2/assets/99566898/78b2cde7-5be8-447a-9384-7357710e6886)
+You can also check by running an 'interface config' command ifconfig. If the USB-CAN-Bridge klipper is up and happy (and you have created the can0 file mentioned in the main page) then you will see a can0 interface:
+![image png 3a2ff9829ff81d4d63392728769c8eb1](https://github.com/baz-snow-ss/Voron-2.4-R2/assets/99566898/3f5c9a1d-b53e-4363-a955-388215334f5c)
+You can now run the Klipper canbus query to retrieve the canbus_uuid of your mainboard:
+```
+~/klippy-env/bin/python ~/klipper/scripts/canbus_query.py can0
+```![image png 418bd590f41553179dfd4d9f2fc2c3f9](https://github.com/baz-snow-ss/Voron-2.4-R2/assets/99566898/a7e0378a-dfdd-43f2-b9f6-282c3301bec0)
+
+Use this UUID in the [mcu] section of your printer.cfg in order for Klipper (on Pi) to connect to the mainboard.
+
