@@ -1,4 +1,4 @@
-SB2209 build guide [https://github.com/bigtreetech/EBB/blob/master/EBB%20SB2240_2209%20CAN/Build%20Guide/EBB%20SB2240%202209%20CAN%20v1.0%20Build%20Guide.pdf](url)
+[SB2209 build guide](https://github.com/bigtreetech/EBB/blob/master/EBB%20SB2240_2209%20CAN/Build%20Guide/EBB%20SB2240%202209%20CAN%20v1.0%20Build%20Guide.pdf)
 
 ## Toolhead Flashing BTT SB2209 CanBus
 <p> As mentioned in the main guide, you can either use CanBOOT on your toolhead to facilitate 
