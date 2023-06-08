@@ -43,4 +43,52 @@ python3 ~/CanBoot/scripts/flash_can.py -i can0 -q
 ```
 You should see a "Detected UUID" with "Application: CanBoot"
 ![image png 4f105b5a3ffc5e8cc67c9b1901152288](https://github.com/baz-snow-ss/Voron-2.4-R2/assets/99566898/5728c898-574f-4826-b053-7114e665c584)
+If you see the above, take note of the UUID and move on to flashing Klipper to the toolhead board.
+
+### Installing Klipper
+```
+cd ~/klipper/
+make menuconfig
+```
+### Klipper when using CanBoot
+![image png 623b5ea3ee63b57129722a63d5995593](https://github.com/baz-snow-ss/Voron-2.4-R2/assets/99566898/4493907c-3ed0-4ae5-87ac-a1842f8e4820)
+```
+make clean
+make
+```
+If you have CanBOOT installed
+Run 
+```
+python3 ~/CanBoot/scripts/flash_can.py -i can0 -q
+```
+and take note of the CanBoot device that it shows:
+
+![image png c56466210e61117764737cb42fa483ad](https://github.com/baz-snow-ss/Voron-2.4-R2/assets/99566898/50361937-831d-47a1-8ccb-45336e898650)
+Then run the following command to install klipper firmware via CanBOOT. Use the UUID you just retrieved in the above query.
+where the "-u" ID is what you found from the "flash_can.py -i can0 -q" query.
+```
+python3 ~/CanBoot/scripts/flash_can.py -i can0 -u 1e0d36d3d925-f ~/klipper/out/klipper.bin
+```
+![image thumb png 8ff659ce12531da2caca5b5f040a3967](https://github.com/baz-snow-ss/Voron-2.4-R2/assets/99566898/50704144-482c-4793-bfb7-c313c7bb9caa)
+One the flash has been completed you can run the
+```
+python3 ~/CanBoot/scripts/flash_can.py -i can0 -q
+```
+command again. This time you should see the same UUID but with "Application: Klipper" instead of "Application: CanBoot"
+
+
+### If you don't have CanBOOT installed
+Then simply run the following commands to change to the klipper directory then flash the toolhead board.
+```
+cd ~/klipper
+make flash FLASH_DEVICE=0483:df11
+```
+where the FLASH_DEVICE ID is the address of the USB device you noted down above.
+
+### Klipper is now installed
+You can now run the Klipper canbus query to retrieve the canbus_uuid of your toolhead board:
+```
+~/klippy-env/bin/python ~/klipper/scripts/canbus_query.py can0
+```
+![image png 33196036442d0b3582c70bd9d6d0d926](https://github.com/baz-snow-ss/Voron-2.4-R2/assets/99566898/dcdf5f53-0082-40e1-bb6f-da7ab07ba8a1)
 
