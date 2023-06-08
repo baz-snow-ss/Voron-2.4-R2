@@ -90,20 +90,6 @@ Probe BOM:
 - some m3 heat inserts
 - some m3 nuts
 
-# Printers Supported (by support order) 
-
-## Directly on this repository
-
-[Voron v2.4](./Printers/v1.8_v2.4_Legacy_Trident)
-
-[Voron v1.8](./Printers/v1.8_v2.4_Legacy_Trident)
-
-[Voron Legacy](./Printers/v1.8_v2.4_Legacy_Trident)
-
-[Voron Trident](./Printers/v1.8_v2.4_Legacy_Trident)
-
-[Voron v0](./Printers/v0)
-
 ## Printers supported on other locations
 
 There are several micro sized Voron variants, most also support klicky, you can find more information on the site https://3dprintersforants.com/
@@ -111,10 +97,6 @@ There are several micro sized Voron variants, most also support klicky, you can 
 # Assembled Klicky Probe on a Voron v2.4
 
 # ![Assembled Klicky Probe](./Photos/Voron_V2.4_300mm_back.jpg)
-
-# Dock and undock video
-
-https://user-images.githubusercontent.com/16675722/122302371-eb9c4e00-cef9-11eb-91d3-3aded131bae0.mp4
 
 It is working very well, if you decide to use it, give me feedback, either here, or on Voron discord, my discord user is JosAr#0517.
 
