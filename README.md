@@ -16,7 +16,7 @@
   
 - 2x 24v LED Case light Strips 6-6500k
 - Chamber Temperature Probe HT-NTC 100k
-- 4x Spherical bearing mod M5
+- 4x Spherical bearing mod M5 on the Z gantry
 - Manta MP8 Board / CB1 / TMC220
 
 - BTT HDMI5
