@@ -39,3 +39,14 @@ Run this command to install klipper firmware via canboot via USB. Use the device
 python3 ~/CanBoot/scripts/flash_can.py -f ~/klipper/out/klipper.bin -d /dev/serial/by-id/usb-CanBoot_stm32g0b1xx_52002D000D504B4633373520-if00
 ```
 ![image thumb png cdf77b51d83df188a25103018e2e527f](https://github.com/baz-snow-ss/Voron-2.4-R2/assets/99566898/60e09b27-806c-4ca6-b825-fd8a900a825b)
+
+### If you are running a stock bootloader and flashing via SD card INSTEAD of CanBOOT
+Simply follow the mainboard user manual to copy the ~/klipper/out/klipper.bin file to an SD card (renaming it if needed) and flash the mainboard as per user manual.
+### If you are flashing via DFU mode (no CanBOOT or stock bootloader)
+Then simply run the following commands to change to the klipper directory then flash the mainboard.
+```
+cd ~/klipper
+make flash FLASH_DEVICE=0483:df11
+```
+where the FLASH_DEVICE ID is the address of the USB device
+### Klipper is now installed
