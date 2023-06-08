@@ -31,3 +31,16 @@
 - CSKB Hepa Filter for the IRobot Roomba 
 - Noctua NF-F12 iPPC-2000, Heavy Duty Cooling Fan, 3-Pin, 2000 RPM (120mm, Black)
 
+### Reference:
+
+https://www.klipper3d.org/Overview.html
+
+https://github.com/VoronDesign/Voron-Tap/tree/main
+https://github.com/bigtreetech/Manta-M8P/issues/30#issuecomment-1429197885
+https://www.klipper3d.org/CANBUS.html
+
+https://github.com/bigtreetech/EBB/tree/master
+
+https://docs.meteyou.wtf/btt-ebb/
+
+https://github.com/Esoterical/voron_canbus  A very well documented github this was a life saver!!!
