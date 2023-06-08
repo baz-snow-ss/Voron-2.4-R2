@@ -93,3 +93,4 @@ You can now run the Klipper canbus query to retrieve the canbus_uuid of your too
 ```
 ![image png 33196036442d0b3582c70bd9d6d0d926](https://github.com/baz-snow-ss/Voron-2.4-R2/assets/99566898/dcdf5f53-0082-40e1-bb6f-da7ab07ba8a1)
 
+NOTE when using CANBus you need to use a Jumper on the 120R Jumper on the SB2209 (and the Mainboard M8P in my example)
