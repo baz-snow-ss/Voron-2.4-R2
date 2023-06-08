@@ -34,3 +34,13 @@ dfu-util -R -a 0 -s 0x08000000:force:mass-erase:leave -D ~/CanBoot/out/canboot.b
 ![Alt text](https://www.teamfdm.com/uploads/monthly_2023_05/image.png.8a9f1e4a1f6d1ddd6763989cd716c356.png)
 
 ### CanBOOT is now installed
+
+CanBOOT should now be successfully flashed. Take your toolhead out of DFU mode (it might require removing jumpers and rebooting, or just rebooting).
+
+Wire up your toolhead power (24v and gnd) and CAN (CANH/CANL) wires, then the following command to see if the toolhead board is on the CAN network and waiting in CanBOOT mode
+```
+python3 ~/CanBoot/scripts/flash_can.py -i can0 -q
+```
+You should see a "Detected UUID" with "Application: CanBoot"
+![image png 4f105b5a3ffc5e8cc67c9b1901152288](https://github.com/baz-snow-ss/Voron-2.4-R2/assets/99566898/5728c898-574f-4826-b053-7114e665c584)
+
