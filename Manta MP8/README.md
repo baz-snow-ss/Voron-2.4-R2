@@ -33,6 +33,7 @@ make
 ls /dev/serial/by-id/
 ```
 ![image png 50cd3f002a25048e9cd409c0bdd5f51c](https://github.com/baz-snow-ss/Voron-2.4-R2/assets/99566898/90e5ea8c-05b8-417d-83bc-6e329dbb83e7)
+
 Run this command to install klipper firmware via canboot via USB. Use the device ID you just retrieved in the above ls command.
 ```
 python3 ~/CanBoot/scripts/flash_can.py -f ~/klipper/out/klipper.bin -d /dev/serial/by-id/usb-CanBoot_stm32g0b1xx_52002D000D504B4633373520-if00
