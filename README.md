@@ -31,7 +31,3 @@
 - CSKB Hepa Filter for the IRobot Roomba 
 - Noctua NF-F12 iPPC-2000, Heavy Duty Cooling Fan, 3-Pin, 2000 RPM (120mm, Black)
 
-
-RATTMMPTPR NEMA17 Stepper Motor 42 Motor 48mm 4 Pins Cable 1.8° High Torque 54Ncm (78oz.in) Low Noise 2 Phase Electric DC Motor 1.3A with Cable for Robot, 3D Printer CNC Router Machine
-Connection:
-Red (A+), Blue (A-), Green (B+), Black (B-).
