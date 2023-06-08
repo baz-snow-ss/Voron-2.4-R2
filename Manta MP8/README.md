@@ -58,7 +58,8 @@ You can also check by running an 'interface config' command ifconfig. If the USB
 You can now run the Klipper canbus query to retrieve the canbus_uuid of your mainboard:
 ```
 ~/klippy-env/bin/python ~/klipper/scripts/canbus_query.py can0
-```![image png 418bd590f41553179dfd4d9f2fc2c3f9](https://github.com/baz-snow-ss/Voron-2.4-R2/assets/99566898/a7e0378a-dfdd-43f2-b9f6-282c3301bec0)
+```
+![image png 418bd590f41553179dfd4d9f2fc2c3f9](https://github.com/baz-snow-ss/Voron-2.4-R2/assets/99566898/a7e0378a-dfdd-43f2-b9f6-282c3301bec0)
 
 Use this UUID in the [mcu] section of your printer.cfg in order for Klipper (on Pi) to connect to the mainboard.
 
